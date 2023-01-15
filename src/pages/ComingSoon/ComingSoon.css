@@ -15,6 +15,7 @@
 }
 
 .content-wrapper img {
+    margin-top: 10px;
     height: 200px;
     width: 200px;
     margin: 1rem auto;
@@ -49,4 +50,22 @@
 
 .social-wrapper a:nth-child(5) img {
     height: 45px;
+}
+
+@media (max-width:500px) {
+    .content-wrapper span:nth-child(2) {
+        font-size: 1.5rem;
+    }
+
+    .content-wrapper span:nth-child(3) {
+        font-size: 2rem;
+    }
+
+    .social-wrapper img {
+        height: 30px;
+    }
+
+    .social-wrapper a:nth-child(5) img {
+        height: 30px;
+    }
 }
