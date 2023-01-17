@@ -11,7 +11,7 @@ export const Teams = () => {
       <>
       <div className="teams-page">
 
-      <div className='underline-header'>
+      <div className="underline-header">
         <span>What Do We Do</span>
         <img src={underline} alt='' />
       </div>
