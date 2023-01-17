@@ -1,5 +1,5 @@
   .teams-page{
-    background: #1E1E1E; 
+    background: #0E0F18;
     padding: 4rem 10px 0;
     gap: 16px;
     padding-bottom: 20px; 
@@ -118,6 +118,22 @@
   letter-spacing: 0.10em;
   color: #FFFFFF;
   }
+
+.teams-page .underline-header img{
+    width: 110vw;
+    position: relative;
+    bottom: 70px;
+}
+
+.teams-page .underline-header{
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
   @media screen and (max-width: 720px) {
     .team-social {

@@ -4,14 +4,16 @@ import { MDBBadge } from "mdbreact";
 import teamData from "../../test_data/team-roles.json";
 import "@fontsource/cabin";
 import "@fontsource/montserrat";
+import underline from './underline.svg';
 
 export const Teams = () => {
     return (
       <>
       <div className="teams-page">
 
-      <div className="page-heading">
-        Meet Our Team
+      <div className='underline-header'>
+        <span>What Do We Do</span>
+        <img src={underline} alt='' />
       </div>
 
         <div className="team">
