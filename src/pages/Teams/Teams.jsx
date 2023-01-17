@@ -12,7 +12,7 @@ export const Teams = () => {
       <div className="teams-page">
 
       <div className="underline-header">
-        <span>What Do We Do</span>
+        <span>Meet the Team</span>
         <img src={underline} alt='' />
       </div>
 

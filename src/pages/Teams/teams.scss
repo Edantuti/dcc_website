@@ -105,9 +105,8 @@
   }
 
 .teams-page .underline-header img{
-    width: 110vw;
-    position: relative;
-    bottom: 70px;
+    max-width: 100vw;
+    height: auto;
 }
 
 .teams-page .underline-header{
@@ -118,6 +117,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 100px;
+}
+
+.teams-page .underline-header span{
+  margin-bottom: -60px;
 }
 
   @media screen and (max-width: 1000px) {
