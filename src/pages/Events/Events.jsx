@@ -16,7 +16,7 @@ export const Events = ({ page, setPage }) => {
     return (
         <div className='events-wrapper'>
             <div className='underline-header'>
-                <span>Meet Our Team</span>
+                <span>Events</span>
                 <img src={underline} alt='' />
             </div>
             <div class="card">

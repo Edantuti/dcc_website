@@ -5,7 +5,6 @@ import { Events } from './pages/Events/Events';
 import { Navbar } from './Components/Navbar';
 import { Footer } from './Components/Footer';
 import { Home } from './pages/Home/Home';
-import { Error } from './pages/404Error/404Error';
 import { useState } from 'react';
 
 function App() {

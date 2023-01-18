@@ -4,7 +4,7 @@
   
   .teams-page{
     background: #0E0F18;
-    padding: 4rem 10px 0;
+    padding: 1rem 10px 0;
     gap: 16px;
     padding-bottom: 20px;
     overflow-x: hidden;
@@ -111,15 +111,13 @@
 
   .teams-page .underline-header img {
     width: 110vw;
-    /* position: relative;
-    bottom: 70px; */
 }
 
 .teams-page .underline-header {
     text-align: center;
     color: #fff;
     font-size: 3rem;
-    margin-top: 150px;
+    margin-bottom: 3rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
