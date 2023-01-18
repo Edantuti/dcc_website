@@ -14,6 +14,7 @@ export const Home = ({ page, setPage }) => {
     useEffect(() => {
         window.scrollTo(0, 0);
         setPage('home')
+        document.title = "Home - DCC"
         document.getElementById("navbarNav").classList.remove("show")
     })
 

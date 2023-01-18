@@ -18,7 +18,7 @@ function App() {
         <Route path="/" element={<Home page={page} setPage={setPage} />} />
         <Route path="/home" element={<Home page={page} setPage={setPage} />} />
         <Route path="*" element={<Navigate to="/" replace />} />
-        <Route path='/about-us' element={<Teams page={page} setPage={setPage} />} />
+        <Route path='/teams' element={<Teams page={page} setPage={setPage} />} />
         <Route path='/events' element={<Events page={page} setPage={setPage} />} />
         <Route path="/events/hack-nita" element={<h1>Hackathon</h1>} />
         <Route path="/events/tgoc" element={<h1>Hackathon1</h1>} />

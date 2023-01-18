@@ -11,6 +11,7 @@ export const Teams = ({ page, setPage }) => {
   useEffect(() => {
     window.scrollTo(0, 0);
     setPage('about')
+    document.title = "Teams - DCC"
     document.getElementById("navbarNav").classList.remove("show")
   })
 
