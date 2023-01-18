@@ -2,6 +2,8 @@ import React, { useEffect } from "react";
 import "./teams.scss";
 // import { MDBBadge } from "mdbreact";
 import teamData from "../../test_data/team-roles.json";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import "@fontsource/cabin";
 import "@fontsource/montserrat";
 import underline from './underline.svg';
@@ -52,7 +54,14 @@ export const Teams = ({ page, setPage }) => {
                           {role.toUpperCase()}
                         </h6>
                         <br />
+                        <div className="team-social">
+                          <a href={roleObject.github}><FontAwesomeIcon icon={faGithub} className="card-footer fa-github-square">
+                          </FontAwesomeIcon></a>
+                          <a href={roleObject.linkedin}><FontAwesomeIcon icon={faLinkedin} className="card-footer in">
+                          </FontAwesomeIcon></a>
+                        </div>
                       </div>
+                      
                     </div>
                   );
                 });
@@ -86,6 +95,12 @@ export const Teams = ({ page, setPage }) => {
                           {roleObject.tags.toUpperCase()}
                         </h6>
                         <br />
+                        <div className="team-social">
+                          <a href={roleObject.github}><FontAwesomeIcon icon={faGithub} className="card-footer fa-github-square">
+                          </FontAwesomeIcon></a>
+                          <a href={roleObject.linkedin}><FontAwesomeIcon icon={faLinkedin} className="card-footer in">
+                          </FontAwesomeIcon></a>
+                        </div>
                       </div>
                     </div>
                   );
@@ -120,6 +135,12 @@ export const Teams = ({ page, setPage }) => {
                           {roleObject.tags.toUpperCase()}
                         </h6>
                         <br />
+                        <div className="team-social">
+                          <a href={roleObject.github}><FontAwesomeIcon icon={faGithub} className="card-footer fa-github-square">
+                          </FontAwesomeIcon></a>
+                          <a href={roleObject.linkedin}><FontAwesomeIcon icon={faLinkedin} className="card-footer in">
+                          </FontAwesomeIcon></a>
+                        </div>
                       </div>
                     </div>
                   );
@@ -154,6 +175,12 @@ export const Teams = ({ page, setPage }) => {
                           {roleObject.tags.toUpperCase()}
                         </h6>
                         <br />
+                        <div className="team-social">
+                          <a href={roleObject.github}><FontAwesomeIcon icon={faGithub} className="card-footer fa-github-square">
+                          </FontAwesomeIcon></a>
+                          <a href={roleObject.linkedin}><FontAwesomeIcon icon={faLinkedin} className="card-footer in">
+                          </FontAwesomeIcon></a>
+                        </div>
                       </div>
                     </div>
                   );
@@ -188,6 +215,12 @@ export const Teams = ({ page, setPage }) => {
                           {roleObject.tags.toUpperCase()}
                         </h6>
                         <br />
+                        <div className="team-social">
+                          <a href={roleObject.github}><FontAwesomeIcon icon={faGithub} className="card-footer fa-github-square">
+                          </FontAwesomeIcon></a>
+                          <a href={roleObject.linkedin}><FontAwesomeIcon icon={faLinkedin} className="card-footer in">
+                          </FontAwesomeIcon></a>
+                        </div>
                       </div>
                     </div>
                   );
@@ -222,6 +255,12 @@ export const Teams = ({ page, setPage }) => {
                           {roleObject.tags.toUpperCase()}
                         </h6>
                         <br />
+                        <div className="team-social">
+                          <a href={roleObject.github}><FontAwesomeIcon icon={faGithub} className="card-footer fa-github-square">
+                          </FontAwesomeIcon></a>
+                          <a href={roleObject.linkedin}><FontAwesomeIcon icon={faLinkedin} className="card-footer in">
+                          </FontAwesomeIcon></a>
+                        </div>
                       </div>
                     </div>
                   );
@@ -256,6 +295,12 @@ export const Teams = ({ page, setPage }) => {
                           {roleObject.tags.toUpperCase()}
                         </h6>
                         <br />
+                        <div className="team-social">
+                          <a href={roleObject.github}><FontAwesomeIcon icon={faGithub} className="card-footer fa-github-square">
+                          </FontAwesomeIcon></a>
+                          <a href={roleObject.linkedin}><FontAwesomeIcon icon={faLinkedin} className="card-footer in">
+                          </FontAwesomeIcon></a>
+                        </div>
                       </div>
                     </div>
                   );
