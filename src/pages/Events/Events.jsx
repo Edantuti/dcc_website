@@ -8,6 +8,7 @@ export const Events = ({ page, setPage }) => {
     useEffect(() => {
         window.scrollTo(0, 0);
         setPage('events')
+        document.getElementById("navbarNav").classList.remove("show")
     })
 
 

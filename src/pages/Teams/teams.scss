@@ -1,3 +1,7 @@
+  body{
+    overflow-x: hidden;
+  }
+  
   .teams-page{
     background: #0E0F18;
     padding: 4rem 10px 0;
@@ -104,24 +108,26 @@
   color: #FFFFFF;
   }
 
-.teams-page .underline-header img{
-    max-width: 100vw;
-    height: auto;
+  .teams-page .underline-header img {
+    width: 110vw;
+    /* position: relative;
+    bottom: 70px; */
 }
 
-.teams-page .underline-header{
+.teams-page .underline-header {
     text-align: center;
     color: #fff;
-    font-size: 40px;
+    font-size: 3rem;
+    margin-top: 150px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 100px;
 }
 
-.teams-page .underline-header span{
-  margin-bottom: -60px;
+.teams-page .underline-header span {
+    position: relative;
+    top: 80px;
 }
 
   @media screen and (max-width: 1000px) {

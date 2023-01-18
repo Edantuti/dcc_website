@@ -7,8 +7,14 @@ import pic from './Rectangle1.png'
 import pic2 from './Rectangle2.png'
 import box from './box.svg'
 import dots from './dots.svg'
+import { useEffect } from 'react'
 
 export const Home = () => {
+
+    useEffect(() => {
+        document.getElementById("navbarNav").classList.remove("show")
+    })
+
     return (
         <div className="home-wrapper">
             <div className="header row justify-content-center">
