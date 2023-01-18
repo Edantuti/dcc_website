@@ -1,6 +1,13 @@
 import { useEffect } from 'react';
 import './Events.css'
 
+import poster1 from './1.png'
+import poster2 from './2.png'
+
+import poster3 from './poster1.png'
+
+import poster4 from './poster2.png'
+
 import underline from './underline.svg'
 
 export const Events = ({ page, setPage }) => {
@@ -22,40 +29,50 @@ export const Events = ({ page, setPage }) => {
             </div>
             <div class="card">
                 <img
-                    class="eventImg"
-                    src="https://source.unsplash.com/random/640x480/?wallpaper,landscape"
+                    class="eventImg hidden"
+                    src={poster2}
                     alt="event img"
+                />
+                <img
+                    class='eventImg eventImgAlt'
+                    src={poster3}
+                    alt=''
                 />
                 <div class="text-content">
                     <div class="text-container">
-                        <h2 class="heading">Event 1</h2>
+                        <h4 class="heading">Hack the Future: HACK-NITA</h4>
                         <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum in
-                            sed eligendi architecto, eius saepe reprehenderit! Ullam, dicta
-                            itaque? Provident autem dolor cum repudiandae, nostrum beatae
-                            mollitia neque sunt tempore!
+
+
+                            A statewide hackathon coming to Aayam 8.0, and it's sure to be a smashing success! Teams from all corners of the state will come together to collaborate and create groundbreaking projects. Participants will have the chance to demonstrate their abilities, network with peers, and make invaluable connections.
+
                         </p>
                     </div>
-                    <a href="#" class="btn">Know more &rAarr;</a>
+                    <a href="https://hacknita.dccnita.tech/" class="btn">Know more</a>
                 </div>
             </div>
             <div class="card card-2">
                 <div class="text-content">
                     <div class="text-container">
-                        <h2 class="heading">Event 2</h2>
+                        <h2 class="heading">The Game of Codes</h2>
                         <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum in
-                            sed eligendi architecto, eius saepe reprehenderit! Ullam, dicta
-                            itaque? Provident autem dolor cum repudiandae, nostrum beatae
-                            mollitia neque sunt tempore!
+
+
+                            The Game of Codes is an open-for-all coding contest where all participants are invited to code solutions for a set of problems in any programming language of their choice. It is an excellent opportunity for beginners to gain valuable coding experience and compete for prizes. This is a great chance to hone your coding skills and potentially take home a reward!
+
                         </p>
                     </div>
-                    <a href="#" class="btn">Know more &rAarr;</a>
+                    <a href="" class="btn">Know more</a>
                 </div>
                 <img
-                    class="eventImg"
-                    src="https://source.unsplash.com/random/640x480/?wallpaper,landscape"
+                    class="eventImg hidden"
+                    src={poster1}
                     alt="event img"
+                />
+                <img
+                    class='eventImg eventImgAlt'
+                    src={poster4}
+                    alt=''
                 />
             </div>
             <div class="card">
@@ -66,12 +83,10 @@ export const Events = ({ page, setPage }) => {
                 />
                 <div class="text-content">
                     <div class="text-container">
-                        <h2 class="heading">Event 3</h2>
+                        <h2 class="heading">Capture The Flag (CTF)</h2>
                         <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum in
-                            sed eligendi architecto, eius saepe reprehenderit! Ullam, dicta
-                            itaque? Provident autem dolor cum repudiandae, nostrum beatae
-                            mollitia neque sunt tempore!
+
+                            Capture the Flag (CTF) is a two-day event packed with stimulating puzzles and riddles to solve and enjoy as you progress through the game. It will be an exhilarating experience to explore and demistify various challenges with your skills and ingenuity, ultimately culminating in victory.
                         </p>
                     </div>
                     <a href="#" class="btn">Know more &rAarr;</a>

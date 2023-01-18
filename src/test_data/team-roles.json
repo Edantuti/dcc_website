@@ -2,7 +2,7 @@
   "president": [
     {
       "name": "Mayur Ray",
-      "profile_pic": "https://i.postimg.cc/Y0qqQVdL/Mayur-Mayur-Ray.jpg",
+      "profile_pic": "https://firebasestorage.googleapis.com/v0/b/sonnier-74b9d.appspot.com/o/mayur.jpg?alt=media&token=2fab5ac4-fdbb-48ed-aa0f-4f81513703b6",
       "linkedin": "https://www.linkedin.com/in/atul-pandey-446a50192",
       "github": "https://github.com/raymayur9",
       "tags": "President"
@@ -46,17 +46,17 @@
   ],
   "web": [
     {
-      "name": "Ankit Gautam",
-      "profile_pic": "https://i.postimg.cc/gjJmxh0v/SAVE-20221126-241335-Ankit-Gautam.jpg",
-      "linkedin": "https://www.linkedin.com/in/theankitgautam",
-      "github": "https://github.com/TheAnkitGautam",
-      "tags": "Lead"
-    },
-    {
       "name": "Gaurav Maheshwari",
       "profile_pic": "https://firebasestorage.googleapis.com/v0/b/sonnier-74b9d.appspot.com/o/gaurav.jpg?alt=media&token=e64d8a4c-2d20-4ae5-8910-046953fad2ea",
       "linkedin": "https://www.linkedin.com/in/gaurav23122001/",
       "github": "https://github.com/gaurav23122001",
+      "tags": "Lead"
+    },
+    {
+      "name": "Ankit Gautam",
+      "profile_pic": "https://i.postimg.cc/gjJmxh0v/SAVE-20221126-241335-Ankit-Gautam.jpg",
+      "linkedin": "https://www.linkedin.com/in/theankitgautam",
+      "github": "https://github.com/TheAnkitGautam",
       "tags": "Lead"
     },
     {

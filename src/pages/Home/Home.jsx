@@ -26,10 +26,14 @@ export const Home = ({ page, setPage }) => {
                 </div>
                 <div className="content col-lg-10">
                     <span>Dream <span style={{ color: "#02A89A" }}>Code</span> Conqurer</span>
-                    <span>DCC</span>
-                    <span>/ˈkəʊdə/</span>
-                    <span>An initiative of NIT Agartala to bring like-minded</span>
-                    <span>Coders and Developers together</span>
+                    <span>Developers & Coder's Club</span>
+                    <span>/dɪˈvɛləpɜːz ənd ˈkəʊdɜːz klʌb/</span>
+                    <span>An initiative of NIT Agartala to bring like-minded  </span>
+                    <span>Coders and Developers of exceptional knowledge </span>
+                    <span>and expertise together to encourage college students</span>
+                    <span> to code and compete with the world.</span>
+                    {/* <span>An initiative of NIT Agartala to bring like-minded</span>
+                    <span>Coders and Developers together</span> */}
                     <a href='https://discord.gg/58qJhGtTaa' target='_blank'><button className='btn join-btn'>Join on Discord</button></a>
                 </div>
             </div>
@@ -42,9 +46,8 @@ export const Home = ({ page, setPage }) => {
             </div>
             <div className='row'>
                 <div className='col-lg-3 col-md-9'>
-                    <span>We Increase awareness</span>
-                    <span>Towards plethora of opportunities such as internships, competitions, openings for collaboration in projects, and much more!</span>
-                    <span>Learn More -</span>
+                    <span>About creating awareness:</span>
+                    <span>We raise awareness of the multitude of opportunities available, such as internships with tech giants like Google and Microsoft, national coding competitions and hackathons hosted by tech companies, and opportunities to collaborate on projects to develop skills. By highlighting these opportunities, we strive to empower individuals to take advantage of them and reach their full potential.</span>
                 </div>
                 <div className='col-lg-5 col-md-12'>
                     <img src={pic} alt='' />
@@ -57,9 +60,8 @@ export const Home = ({ page, setPage }) => {
                     <img className='box' src={dots} alt='' />
                 </div>
                 <div className='col-lg-3 col-md-9'>
-                    <span>We Provide a tech community</span>
-                    <span>Forming a global tech community where developers can converse together, share information and learn from each other. Helping you accelerate your learning & bring you closer to like – minded individuals. So, there will always be a helping hand at your side.</span>
-                    <span>Learn More -</span>
+                    <span>About tech community: </span>
+                    <span>We provide a tech community that forms a global network, connecting elite developers and coders to share their knowledge and experience, and learn from one another. Our goal is to help you maximize your learning potential and bring you closer to like-minded individuals. So, pursue your dreams and code robustly - we are here to support you every step of the way.</span>
                 </div>
             </div>
         </div>

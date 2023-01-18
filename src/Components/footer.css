@@ -15,13 +15,17 @@
     margin: 0 10%;
 }
 
+.logo{
+    display: flex;
+    align-items: flex-end;
+}
+
 .firstContainer{
     display: flex;
     justify-content: space-between;
     margin-top: 75px;
     margin-bottom: 30px;
 }
-
 
 
 .events{
@@ -145,5 +149,11 @@
     .events-hidden span a:hover{
         color: #b7b9bd86;
         transition: 0.5s;
+    }
+  }
+
+  @media (max-width:1469px){
+    .logo{
+        align-items: flex-start;
     }
   }
