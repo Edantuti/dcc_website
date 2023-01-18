@@ -7,8 +7,17 @@ import pic from './Rectangle1.png'
 import pic2 from './Rectangle2.png'
 import box from './box.svg'
 import dots from './dots.svg'
+import { useEffect } from 'react'
 
-export const Home = () => {
+export const Home = ({ page, setPage }) => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+        setPage('home')
+        document.title = "Home - DCC"
+        document.getElementById("navbarNav").classList.remove("show")
+    })
+
     return (
         <div className="home-wrapper">
             <div className="header row justify-content-center">
@@ -21,7 +30,7 @@ export const Home = () => {
                     <span>/ˈkəʊdə/</span>
                     <span>An initiative of NIT Agartala to bring like-minded</span>
                     <span>Coders and Developers together</span>
-                    <a href=''><button className='btn join-btn'>Join on Discord</button></a>
+                    <a href='https://discord.gg/58qJhGtTaa' target='_blank'><button className='btn join-btn'>Join on Discord</button></a>
                 </div>
             </div>
             <div className="img-content">
