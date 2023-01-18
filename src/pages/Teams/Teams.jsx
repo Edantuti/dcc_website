@@ -9,6 +9,7 @@ import underline from './underline.svg';
 export const Teams = () => {
 
   useEffect(() => {
+    document.title = "Teams - DCC"
     document.getElementById("navbarNav").classList.remove("show")
   })
 

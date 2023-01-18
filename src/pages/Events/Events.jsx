@@ -6,6 +6,7 @@ import underline from './underline.svg'
 export const Events = ({ page, setPage }) => {
 
     useEffect(() => {
+        document.title = "Events - DCC"
         window.scrollTo(0, 0);
         setPage('events')
         document.getElementById("navbarNav").classList.remove("show")

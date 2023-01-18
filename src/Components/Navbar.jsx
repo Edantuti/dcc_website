@@ -33,7 +33,7 @@ export const Navbar = ({ page, setPage }) => {
                             <Link onClick={() => setPage('events')} class={page === 'events' ? 'nav-link active' : 'nav-link'} to="/events">Events</Link>
                         </li>
                         <li class="nav-item">
-                            <Link onClick={() => setPage('about')} class={page === 'about' ? 'nav-link active' : 'nav-link'} to="/about-us">Teams</Link>
+                            <Link onClick={() => setPage('about')} class={page === 'about' ? 'nav-link active' : 'nav-link'} to="/teams">Teams</Link>
                         </li>
                     </ul>
                 </div>

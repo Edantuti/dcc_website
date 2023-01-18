@@ -12,6 +12,7 @@ import { useEffect } from 'react'
 export const Home = () => {
 
     useEffect(() => {
+        document.title = "Home - DCC"
         document.getElementById("navbarNav").classList.remove("show")
     })
 
