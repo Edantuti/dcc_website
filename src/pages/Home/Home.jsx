@@ -9,9 +9,11 @@ import box from './box.svg'
 import dots from './dots.svg'
 import { useEffect } from 'react'
 
-export const Home = () => {
+export const Home = ({ page, setPage }) => {
 
     useEffect(() => {
+        window.scrollTo(0, 0);
+        setPage('home')
         document.title = "Home - DCC"
         document.getElementById("navbarNav").classList.remove("show")
     })

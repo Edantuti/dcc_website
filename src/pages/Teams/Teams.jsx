@@ -6,9 +6,11 @@ import "@fontsource/cabin";
 import "@fontsource/montserrat";
 import underline from './underline.svg';
 
-export const Teams = () => {
+export const Teams = ({ page, setPage }) => {
 
   useEffect(() => {
+    window.scrollTo(0, 0);
+    setPage('about')
     document.title = "Teams - DCC"
     document.getElementById("navbarNav").classList.remove("show")
   })
