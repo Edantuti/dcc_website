@@ -36,7 +36,7 @@ export const Navbar = ({ page, setPage }) => {
                             <Link onClick={() => setPage('about')} class={page === 'about' ? 'nav-link active' : 'nav-link'} to="/about-us">Teams</Link>
                         </li>
                         <li class="nav-item">
-                            <button className='btn'>Join Us</button>
+                            <a href='https://discord.gg/58qJhGtTaa' target='_blank'><button className='btn'>Join Us</button></a>
                         </li>
                     </ul>
                 </div>

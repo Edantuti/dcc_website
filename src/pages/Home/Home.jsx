@@ -21,7 +21,7 @@ export const Home = () => {
                     <span>/ˈkəʊdə/</span>
                     <span>An initiative of NIT Agartala to bring like-minded</span>
                     <span>Coders and Developers together</span>
-                    <a href=''><button className='btn join-btn'>Join on Discord</button></a>
+                    <a href='https://discord.gg/58qJhGtTaa' target='_blank'><button className='btn join-btn'>Join on Discord</button></a>
                 </div>
             </div>
             <div className="img-content">
