@@ -18,11 +18,11 @@ export const Footer = () => {
                     </div>
                     <div class="events">
                         <p>
+                            <Link to="/">Home</Link>
+                        </p>
+                        <p>
                             <Link to="/events">Events</Link>
                         </p>
-                        {/* <p>
-                            <Link to="/">Contact Us</Li>
-                        </p> */}
                         <p>
                             <Link to="/teams">Teams</Link>
                         </p>
@@ -59,11 +59,12 @@ export const Footer = () => {
                     </div>
                     <div className='events-hidden'>
                         <span>
+                            <Link to="/">Home</Link>
+
+                        </span>
+                        <span>
                             <Link to="/events">Events</Link>
                         </span>
-                        {/* <p>
-                            <Link to="/">Contact Us</Li>
-                        </p> */}
                         <span>
                             <Link to="/teams">Teams</Link>
                         </span>
