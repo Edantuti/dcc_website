@@ -89,7 +89,7 @@ export const Events = ({ page, setPage }) => {
                             Capture the Flag (CTF) is a two-day event packed with stimulating puzzles and riddles to solve and enjoy as you progress through the game. It will be an exhilarating experience to explore and demistify various challenges with your skills and ingenuity, ultimately culminating in victory.
                         </p>
                     </div>
-                    <a href="#" class="btn">Know more &rAarr;</a>
+                    <a href="#" class="btn">Know more</a>
                 </div>
             </div>
         </div>
