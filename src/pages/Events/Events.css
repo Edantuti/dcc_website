@@ -160,7 +160,7 @@
     
 }
 
-@media (max-width: 1660px){
+@media (max-width: 1448px){
   .card {
     max-width: 80vw;
     flex-direction: column;

@@ -3,8 +3,6 @@ import './Home.css'
 import logo from './logo.png'
 import lines from './lines.svg'
 import underline from './underline.svg'
-import pic from './Rectangle1.png'
-import pic2 from './Rectangle2.png'
 import box from './box.svg'
 import dots from './dots.svg'
 import { useEffect } from 'react'
@@ -50,13 +48,13 @@ export const Home = ({ page, setPage }) => {
                     <span>We raise awareness of the multitude of opportunities available, such as internships with tech giants like Google and Microsoft, national coding competitions and hackathons hosted by tech companies, and opportunities to collaborate on projects to develop skills. By highlighting these opportunities, we strive to empower individuals to take advantage of them and reach their full potential.</span>
                 </div>
                 <div className='col-lg-5 col-md-12'>
-                    <img src={pic} alt='' />
+                    <img src='https://firebasestorage.googleapis.com/v0/b/dcc-nita.appspot.com/o/Rectangle1.png?alt=media&token=19986571-aea3-4639-a0f5-466e3593defc' alt='' />
                     <img className='box' src={box} alt='' />
                 </div>
             </div>
             <div className='row'>
                 <div className='col-lg-5 col-md-12'>
-                    <img src={pic2} alt='' />
+                    <img src='https://firebasestorage.googleapis.com/v0/b/dcc-nita.appspot.com/o/Rectangle2.png?alt=media&token=2aaf9083-5532-42d7-8216-6ba3f6ca5da6' alt='' />
                     <img className='box' src={dots} alt='' />
                 </div>
                 <div className='col-lg-3 col-md-9'>

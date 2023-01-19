@@ -1,12 +1,6 @@
 import { useEffect } from 'react';
 import './Events.css'
 
-import poster1 from './1.png'
-import poster2 from './2.png'
-
-import poster3 from './poster1.png'
-
-import poster4 from './poster2.png'
 
 import underline from './underline.svg'
 
@@ -30,12 +24,12 @@ export const Events = ({ page, setPage }) => {
             <div class="card">
                 <img
                     class="eventImg hidden"
-                    src={poster2}
+                    src='https://firebasestorage.googleapis.com/v0/b/dcc-nita.appspot.com/o/2.png?alt=media&token=3ab8069b-e0b3-4e23-b1b0-cae7dd8602d0'
                     alt="event img"
                 />
                 <img
                     class='eventImg eventImgAlt'
-                    src={poster3}
+                    src='https://firebasestorage.googleapis.com/v0/b/dcc-nita.appspot.com/o/poster1.png?alt=media&token=17fc460d-7945-47bf-888b-9aff12ad54ee'
                     alt=''
                 />
                 <div class="text-content">
@@ -66,12 +60,12 @@ export const Events = ({ page, setPage }) => {
                 </div>
                 <img
                     class="eventImg hidden"
-                    src={poster1}
+                    src='https://firebasestorage.googleapis.com/v0/b/dcc-nita.appspot.com/o/1.png?alt=media&token=04a2c35c-9f13-470d-af25-f45696c9f43d'
                     alt="event img"
                 />
                 <img
                     class='eventImg eventImgAlt'
-                    src={poster4}
+                    src='https://firebasestorage.googleapis.com/v0/b/dcc-nita.appspot.com/o/poster2.png?alt=media&token=f556ab17-2c46-4299-88a3-e52f845f9df0'
                     alt=''
                 />
             </div>
