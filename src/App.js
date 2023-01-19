@@ -20,9 +20,6 @@ function App() {
         <Route path="*" element={<Navigate to="/" replace />} />
         <Route path='/teams' element={<Teams page={page} setPage={setPage} />} />
         <Route path='/events' element={<Events page={page} setPage={setPage} />} />
-        <Route path="/events/hack-nita" element={<h1>Hackathon</h1>} />
-        <Route path="/events/goc" element={<h1>Hackathon1</h1>} />
-        <Route path="/events/ctf" element={<h1>Hackathon2</h1>} />
       </Routes>
       <Footer />
     </BrowserRouter>
