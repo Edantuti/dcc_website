@@ -194,3 +194,9 @@
     visibility: hidden;
   }
 }
+
+@media (max-width: 998px){
+  .events-wrapper{
+    padding-top: 4rem;
+  }
+}

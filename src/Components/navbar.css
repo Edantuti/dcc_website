@@ -1,7 +1,8 @@
 .navbar{
     background-color: #0E0F18!important;
     font-family: 'Montserrat', sans-serif;
-
+    /* position: absolute;
+    width: 100vw; */
 }
 
 .navbar .navbar-toggler-icon{
@@ -10,11 +11,17 @@
 
 .navbar .navbar-brand{
     color: #fff;
+    font-size: 1rem;
 }
 
 .navbar .navbar-brand img{
     width: 100px;
     margin-right: 1rem;
+}
+
+.navbar .navbar-collapse{
+    background-color: #0E0F18;
+    z-index: 100;
 }
 
 .navbar .nav-link{
@@ -47,10 +54,15 @@
     }
 
     .navbar .navbar-brand{
-        font-size: 1rem;
+        font-size: 0.75rem;
     }
 
     .navbar .navbar-brand img{
         width: 50px;
+    }
+
+    .navbar{
+        position: absolute;
+        width: 100vw;
     }
 }
