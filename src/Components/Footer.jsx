@@ -30,7 +30,7 @@ export const Footer = () => {
                 </div>
                 <div class="secondContainer">
                     <div class="location">
-                        <h3>DEVELOPERS AND CODERS CLUB NITA</h3>
+                        <h3>DEVELOPERS & CODERS CLUB NITA</h3>
                         <p>
                             National Institute of Technology, Agartala,
                             <br />

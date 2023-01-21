@@ -36,7 +36,7 @@ export const Teams = ({ page, setPage }) => {
                 role === "president" ||
                 role === "vice president" ||
                 role === "general secretary" ||
-                role === "event manager" ||
+                role === "event head" ||
                 role === "treasurer"
               ) {
                 return teamData[role].map((roleObject) => {
@@ -61,7 +61,7 @@ export const Teams = ({ page, setPage }) => {
                           </FontAwesomeIcon></a>
                         </div>
                       </div>
-                      
+
                     </div>
                   );
                 });
@@ -273,7 +273,7 @@ export const Teams = ({ page, setPage }) => {
 
         <div className="team">
           <h4 className="heading-dark">
-            Social Media Team
+            Social Media & Outreach Team
           </h4>
           <div className="row1">
             {Object.keys(teamData).map((role) => {
