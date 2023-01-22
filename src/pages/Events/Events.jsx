@@ -21,7 +21,7 @@ export const Events = ({ page, setPage }) => {
                 <span>Events</span>
                 <img src={underline} alt='' />
             </div>
-            <div class="card">
+            {/* <div class="card">
                 <img
                     class="eventImg hidden"
                     src='https://firebasestorage.googleapis.com/v0/b/dcc-nita.appspot.com/o/2.png?alt=media&token=3ab8069b-e0b3-4e23-b1b0-cae7dd8602d0'
@@ -44,7 +44,7 @@ export const Events = ({ page, setPage }) => {
                     </div>
                     <a href="https://hacknita.dccnita.tech/" class="btn">Know more</a>
                 </div>
-            </div>
+            </div> */}
             <div class="card card-2">
                 <div class="text-content">
                     <div class="text-container">
@@ -72,7 +72,7 @@ export const Events = ({ page, setPage }) => {
             <div class="card">
                 <img
                     class="eventImg"
-                    src="https://source.unsplash.com/random/640x480/?wallpaper,landscape"
+                    src="https://firebasestorage.googleapis.com/v0/b/capture-the-flag-dcc.appspot.com/o/ctf_poster.png?alt=media&token=26818b18-6d12-4c48-a911-129a1aa959ae"
                     alt="event img"
                 />
                 <div class="text-content">
