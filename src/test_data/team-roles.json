@@ -26,7 +26,7 @@
       "tags": "General Secretary"
     }
   ],
-  "event manager" :[
+  "event head": [
     {
       "name": "Tanmay Shree",
       "profile_pic": "https://i.postimg.cc/G2n4TX0v/IMG-20220120-174324-463-Tanmay-Shree.jpg",
@@ -35,7 +35,7 @@
       "tags": "Event Head"
     }
   ],
-  "treasurer" : [
+  "treasurer": [
     {
       "name": "Rishita Bose",
       "profile_pic": "https://i.postimg.cc/pXWnBcmZ/IMG-20210930-214511-460-20-UCS193-Rishita-Bose.webp",
@@ -117,7 +117,6 @@
       "github": "https://github.com/Abhishek-Verma75230",
       "tags": "Team Member"
     },
-
     {
       "name": "Rimi Saha",
       "profile_pic": "https://i.postimg.cc/yxQ6jPGQ/meeeeh-21-UCS081-Rimi-Saha.jpg",
@@ -281,8 +280,7 @@
       "tags": "Team Member"
     }
   ],
-
-  "gr":[
+  "gr": [
     {
       "name": "Ritika Majumder",
       "profile_pic": "https://i.postimg.cc/zGfKq25B/20221117-130434-21-UEE094-Rittika-Majumder.jpg",
@@ -326,7 +324,6 @@
       "tags": "Team Member"
     }
   ],
-
   "content": [
     {
       "name": "Prabhat Barnwal",
@@ -357,8 +354,6 @@
       "tags": "Team Member"
     }
   ],
-
-
   "mention": [
     {
       "name": "Tanmay Shree",

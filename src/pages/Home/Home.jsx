@@ -58,7 +58,7 @@ export const Home = ({ page, setPage }) => {
                     <img className='box' src={dots} alt='' />
                 </div>
                 <div className='col-lg-3 col-md-9'>
-                    <span>Community support: </span>
+                    <span>Community support: </span>
                     <span>We provide a tech community that forms a global network, connecting elite developers and coders to share their knowledge and experience, and learn from one another. Our goal is to help you maximize your learning potential and bring you closer to like-minded individuals. So, pursue your dreams and code robustly - we are here to support you every step of the way.</span>
                 </div>
             </div>

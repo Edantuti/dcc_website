@@ -46,6 +46,16 @@ export const Events = ({ page, setPage }) => {
                 </div>
             </div> */}
             <div class="card card-2">
+                <img
+                    class="eventImg hidden"
+                    src='https://firebasestorage.googleapis.com/v0/b/smart-naka-lifetime-error.appspot.com/o/GOC%20Banner%20Final.jpg?alt=media&token=c362fc18-b294-4cdc-8d90-503762c4dd2b '
+                    alt="event img"
+                />
+                <img
+                    class='eventImg eventImgAlt'
+                    src='https://firebasestorage.googleapis.com/v0/b/smart-naka-lifetime-error.appspot.com/o/GOC%20Poster%20Final.jpg?alt=media&token=6e6e977f-0d23-4061-9a60-12e33b0cfa6c'
+                    alt=''
+                />
                 <div class="text-content">
                     <div class="text-container">
                         <h2 class="heading">The Game of Codes</h2>
@@ -56,24 +66,20 @@ export const Events = ({ page, setPage }) => {
 
                         </p>
                     </div>
-                    <a href="" class="btn">Know more</a>
+                    <a href="https://goc.dccnita.tech" class="btn">Know more</a>
                 </div>
+
+            </div>
+            <div class="card">
                 <img
                     class="eventImg hidden"
-                    src='https://firebasestorage.googleapis.com/v0/b/dcc-nita.appspot.com/o/1.png?alt=media&token=04a2c35c-9f13-470d-af25-f45696c9f43d'
+                    src='https://firebasestorage.googleapis.com/v0/b/smart-naka-lifetime-error.appspot.com/o/CTF%20Banner%20Final.jpg?alt=media&token=82e0df98-7882-4c22-ae52-a6147a77e6fc'
                     alt="event img"
                 />
                 <img
                     class='eventImg eventImgAlt'
-                    src='https://firebasestorage.googleapis.com/v0/b/dcc-nita.appspot.com/o/poster2.png?alt=media&token=f556ab17-2c46-4299-88a3-e52f845f9df0'
+                    src='https://firebasestorage.googleapis.com/v0/b/smart-naka-lifetime-error.appspot.com/o/CTF%20Poster%20Final.jpg?alt=media&token=3a0cb930-f085-41bc-ab06-4eb14012a8bd'
                     alt=''
-                />
-            </div>
-            <div class="card">
-                <img
-                    class="eventImg"
-                    src="https://firebasestorage.googleapis.com/v0/b/capture-the-flag-dcc.appspot.com/o/ctf_poster.png?alt=media&token=26818b18-6d12-4c48-a911-129a1aa959ae"
-                    alt="event img"
                 />
                 <div class="text-content">
                     <div class="text-container">
