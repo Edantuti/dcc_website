@@ -66,19 +66,19 @@ export const Events = ({ page, setPage }) => {
 
                         </p>
                     </div>
-                    <a href="https://goc.dccnita.tech" class="btn">Know more</a>
+                    <a href="https://goc.dccnita.tech" target="_blank" class="btn">Know more</a>
                 </div>
 
             </div>
             <div class="card">
                 <img
                     class="eventImg hidden"
-                    src='https://firebasestorage.googleapis.com/v0/b/smart-naka-lifetime-error.appspot.com/o/CTF%20Banner%20Final.jpg?alt=media&token=82e0df98-7882-4c22-ae52-a6147a77e6fc'
+                    src='https://firebasestorage.googleapis.com/v0/b/smart-naka-lifetime-error.appspot.com/o/ctf%20banner2.jpg?alt=media&token=e8a44013-1ae6-4c6b-a6f9-98251475c2e9'
                     alt="event img"
                 />
                 <img
                     class='eventImg eventImgAlt'
-                    src='https://firebasestorage.googleapis.com/v0/b/smart-naka-lifetime-error.appspot.com/o/CTF%20Poster%20Final.jpg?alt=media&token=3a0cb930-f085-41bc-ab06-4eb14012a8bd'
+                    src='https://firebasestorage.googleapis.com/v0/b/smart-naka-lifetime-error.appspot.com/o/ctf%20poster2.jpg?alt=media&token=fc5158d1-5cb1-4e7e-b65e-22ab76a331d4'
                     alt=''
                 />
                 <div class="text-content">
@@ -89,7 +89,7 @@ export const Events = ({ page, setPage }) => {
                             Capture the Flag (CTF) is a two-day event packed with stimulating puzzles and riddles to solve and enjoy as you progress through the game. It will be an exhilarating experience to explore and demistify various challenges with your skills and ingenuity, ultimately culminating in victory.
                         </p>
                     </div>
-                    <a href="#" class="btn">Know more</a>
+                    <a href="https://ctf.dccnita.tech" target="_blank" class="btn">Know more</a>
                 </div>
             </div>
         </div>
