@@ -30,6 +30,9 @@ export const Navbar = ({ page, setPage }) => {
                             <Link onClick={() => setPage('home')} class={page === 'home' ? 'nav-link active' : 'nav-link'} to="/">Home</Link>
                         </li>
                         <li class="nav-item">
+                            <a class={page === 'cpHub' ? 'nav-link active' : 'nav-link'} target='_blank' href="http://cphub.dccnita.tech">CP Hub</a>
+                        </li>
+                        <li class="nav-item">
                             <Link onClick={() => setPage('events')} class={page === 'events' ? 'nav-link active' : 'nav-link'} to="/events">Events</Link>
                         </li>
                         <li class="nav-item">
