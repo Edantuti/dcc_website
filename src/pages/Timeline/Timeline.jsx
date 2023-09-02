@@ -3,15 +3,17 @@ import underline from './underline.svg'
 import 'react-vertical-timeline-component/style.min.css';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import Events from './timelineData.json'
+import './timeline.css'
 import { faHourglass1 } from '@fortawesome/free-solid-svg-icons';
 
 function Timeline({page,setPage}) {
+    
     const {events}= Events; 
-    console.log(events);
+
     useEffect(() => {
-        document.title = "Events - DCC"
+        document.title = "Timeline - DCC"
         window.scrollTo(0, 0);
-        setPage('events')
+        setPage('timeline')
         document.getElementById("navbarNav").classList.remove("show")
     })
 
@@ -29,11 +31,11 @@ function Timeline({page,setPage}) {
                     return (
                         <VerticalTimelineElement
                             key={index}
-                            className="vertical-timeline-element--work"
+                            className="vertical-timeline-element--work noPadding"
                             contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                             contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
                             iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-                            icon={<h1></h1>}
+                            icon={<></>}
                         >
                             <h3 className="vertical-timeline-element-title">{event.name}</h3>
                             <h4 className="vertical-timeline-element-subtitle">{event.date}</h4>
