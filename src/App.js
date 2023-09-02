@@ -6,6 +6,7 @@ import { Navbar } from './Components/Navbar';
 import { Footer } from './Components/Footer';
 import { Home } from './pages/Home/Home';
 import { useState } from 'react';
+import Timeline from './pages/Timeline/Timeline';
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
         <Route path="*" element={<Navigate to="/" replace />} />
         <Route path='/teams' element={<Teams page={page} setPage={setPage} />} />
         <Route path='/events' element={<Events page={page} setPage={setPage} />} />
+        <Route path='/timeline' element={<Timeline page={page} setPage={setPage} />} />
       </Routes>
       <Footer />
     </BrowserRouter>

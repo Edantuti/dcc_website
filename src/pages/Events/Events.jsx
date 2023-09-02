@@ -45,10 +45,10 @@ export const Events = ({ page, setPage }) => {
                     <a href="https://hacknita.dccnita.tech/" class="btn">Know more</a>
                 </div>
             </div> */}
-            <div class="card card-2">
+            <div class="card card-2 upcoming">
                 <img
                     class="eventImg hidden"
-                    src='https://firebasestorage.googleapis.com/v0/b/smart-naka-lifetime-error.appspot.com/o/GOC%20Banner%20Final.jpg?alt=media&token=c362fc18-b294-4cdc-8d90-503762c4dd2b '
+                    src='https://res.cloudinary.com/dhzod7y8u/image/upload/v1693606077/final_maadhyam_p2ktr5.jpg'
                     alt="event img"
                 />
                 <img
@@ -58,7 +58,35 @@ export const Events = ({ page, setPage }) => {
                 />
                 <div class="text-content">
                     <div class="text-container">
-                        <h2 class="heading">The Game of Codes</h2>
+                        <h2 class="heading">Maadhyam 3.0</h2>
+                        <p>
+
+                        Ignite Your Tech Journey at the orientation event for first-year students, brought to you by the powerhouse clubs DCC and GDSC at NITA! Join us for an exciting ride through boundless opportunities and tech innovation. Get ready to embark on this exhilarating journey and witness the unveiling of DCC & GDSC Orientation 2023, exclusively for 1st years.
+
+                        </p>
+                        <div>
+                            <b>
+                            September 3rd, Sunday
+                            <br />
+                            Visvesvaraya Auditorium
+                            <br />
+                             2:30 - 5:30 PM
+                            </b>
+                        </div>
+                    </div>
+                    <a href="#" target="_blank" class="btn">UPCOMING</a>
+                </div>
+
+            </div>
+            <div class="card card-2">
+                <img
+                    class="eventImg hidden"
+                    src='https://firebasestorage.googleapis.com/v0/b/smart-naka-lifetime-error.appspot.com/o/GOC%20Banner%20Final.jpg?alt=media&token=c362fc18-b294-4cdc-8d90-503762c4dd2b '
+                    alt="event img"
+                />
+                <div class="text-content">
+                    <div class="text-container">
+                    <h2 class="heading">The Game of Codes</h2>
                         <p>
 
 
