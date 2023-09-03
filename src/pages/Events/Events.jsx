@@ -78,6 +78,7 @@ export const Events = ({ page, setPage }) => {
                 </div>
 
             </div>
+            <h2 class="heading">Past Events</h2>
             <div class="card card-2">
                 <img
                     class="eventImg hidden"
