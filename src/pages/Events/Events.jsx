@@ -53,7 +53,7 @@ export const Events = ({ page, setPage }) => {
                 />
                 <img
                     class='eventImg eventImgAlt'
-                    src='https://firebasestorage.googleapis.com/v0/b/smart-naka-lifetime-error.appspot.com/o/GOC%20Poster%20Final.jpg?alt=media&token=6e6e977f-0d23-4061-9a60-12e33b0cfa6c'
+                    src='https://res.cloudinary.com/dhzod7y8u/image/upload/v1693606077/final_maadhyam_p2ktr5.jpg'
                     alt=''
                 />
                 <div class="text-content">
@@ -83,6 +83,11 @@ export const Events = ({ page, setPage }) => {
                     class="eventImg hidden"
                     src='https://firebasestorage.googleapis.com/v0/b/smart-naka-lifetime-error.appspot.com/o/GOC%20Banner%20Final.jpg?alt=media&token=c362fc18-b294-4cdc-8d90-503762c4dd2b '
                     alt="event img"
+                />
+                <img
+                    class='eventImg eventImgAlt'
+                    src='https://firebasestorage.googleapis.com/v0/b/smart-naka-lifetime-error.appspot.com/o/GOC%20Banner%20Final.jpg?alt=media&token=c362fc18-b294-4cdc-8d90-503762c4dd2b '
+                    alt=''
                 />
                 <div class="text-content">
                     <div class="text-container">
