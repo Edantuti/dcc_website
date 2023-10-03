@@ -20,7 +20,7 @@ function App() {
         <Route path="/home" element={<Home page={page} setPage={setPage} />} />
         <Route path="*" element={<Navigate to="/" replace />} />
         <Route path='/teams' element={<Teams page={page} setPage={setPage} />} />
-        <Route path='/events' element={<Events page={page} setPage={setPage} />} />
+        {/* <Route path='/events' element={<Events page={page} setPage={setPage} />} /> */}
         <Route path='/timeline' element={<Timeline page={page} setPage={setPage} />} />
       </Routes>
       <Footer />
