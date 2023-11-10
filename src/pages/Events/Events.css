@@ -108,6 +108,13 @@
   position: absolute;
 }
 
+.loadingScreen{
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 @media (max-width: 68rem) {
   .svg-container {
     height: 13rem;
