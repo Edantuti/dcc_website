@@ -76,16 +76,6 @@ export const Events = ({ page, setPage }) => {
                     }
                 })
             }
-            <EventCard
-                imgAddress={"https://res.cloudinary.com/dhzod7y8u/image/upload/v1693606077/final_maadhyam_p2ktr5.jpg"}
-                heading={"Maadhyam 3.0"}
-                description={"Ignite Your Tech Journey at the orientation event for first-year students, brought to you by the powerhouse clubs DCC and GDSC at NITA! Join us for an exciting ride through boundless opportunities and tech innovation. Get ready to embark on this exhilarating journey and witness the unveiling of DCC & GDSC Orientation 2023, exclusively for 1st years."}  
-                cta_link={"#"}
-                ctaButtonText={"UPCOMING"}
-                eventDate={"September 3rd, Sunday"}
-                eventLocation={"Visvesvaraya Auditorium"}
-                eventTime={"2:30 - 5:30 PM"} 
-            />
             <h2 class="heading">Past Events</h2>
             {
                 pastEvents.map((event)=>{
@@ -105,6 +95,16 @@ export const Events = ({ page, setPage }) => {
                     }
                 })
             }
+            <EventCard
+                imgAddress={"https://res.cloudinary.com/dhzod7y8u/image/upload/v1693606077/final_maadhyam_p2ktr5.jpg"}
+                heading={"Maadhyam 3.0"}
+                description={"Ignite Your Tech Journey at the orientation event for first-year students, brought to you by the powerhouse clubs DCC and GDSC at NITA! Join us for an exciting ride through boundless opportunities and tech innovation. Get ready to embark on this exhilarating journey and witness the unveiling of DCC & GDSC Orientation 2023, exclusively for 1st years."}  
+                cta_link={"#"}
+                ctaButtonText={"Know More"}
+                eventDate={"September 3rd, Sunday"}
+                eventLocation={"Visvesvaraya Auditorium"}
+                eventTime={"2:30 - 5:30 PM"} 
+            />
             <EventCard
                 imgAddress={"https://firebasestorage.googleapis.com/v0/b/smart-naka-lifetime-error.appspot.com/o/GOC%20Banner%20Final.jpg?alt=media&token=c362fc18-b294-4cdc-8d90-503762c4dd2b"}
                 heading={"The Game of Codes"}
