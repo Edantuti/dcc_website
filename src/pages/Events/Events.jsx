@@ -76,7 +76,7 @@ export const Events = ({ page, setPage }) => {
                     }
                 })
             }
-            <h2 class="heading">Past Events</h2>
+            <h2 class="heading" style={{marginTop: "3rem"}} >Past Events</h2>
             {
                 pastEvents.map((event)=>{
                     if(pastOrFutureDate(event.date,event.time)==="PAST"){

@@ -1,4 +1,4 @@
-
+import { formatDateString } from "../../../utlis/formatDateString"
 
 export const EventCard = ({
     imgAddress,
@@ -9,7 +9,7 @@ export const EventCard = ({
     eventDate=null,
     eventTime=null,
     eventLocation=null,
-    }) =>{
+    }) =>{      
 
         return (
         <div class="card">
@@ -31,7 +31,7 @@ export const EventCard = ({
                         (eventDate || eventLocation || eventTime) &&
                         <div>
                             <b>
-                            {eventDate}
+                            {formatDateString(eventDate)}
                             <br />
                             {eventLocation}
                             <br />
