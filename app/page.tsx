@@ -57,7 +57,7 @@ export default function Home() {
               <Image
                 src={Box}
                 alt="filler"
-                className="absolute -bottom-16 w-36 right-24"
+                className="absolute -bottom-16 w-36 right-24 md:flex hidden"
               />
               <Image
                 src={
@@ -76,7 +76,7 @@ export default function Home() {
               <Image
                 src={Dots}
                 alt="filler"
-                className="absolute -bottom-10 w-36 right-8"
+                className="absolute -bottom-10 w-36 right-8 md:flex hidden"
               />
               <Image
                 src={
