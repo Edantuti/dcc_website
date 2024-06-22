@@ -1,13 +1,13 @@
-import Heading from "@/components/Heading";
-import TeamCard from "@/components/TeamCard";
-import TeamSection from "@/components/TeamSection";
+import {Heading} from "@/components/Heading";
+import {TeamCard} from "@/components/TeamCard";
+import {TeamSection} from "@/components/TeamSection";
 import teamData from "@/public/team-roles.json";
 
-export default () => {
+export default function Page() {
   return (
     <main className="min-h-screen">
       <section className="text-white space-y-10">
-        <Heading children={"Meet The Team"}/>
+        <Heading>Meet The Team</Heading>
         <section className="mx-20">
         <article>
           <h3 className="text-center text-2xl py-5">Executive Team</h3>
@@ -29,6 +29,7 @@ export default () => {
                     tags: string;
                   }) => (
                     <TeamCard
+                      key={data.name}
                       name={data.name}
                       profile_url={data.profile_pic}
                       linkedin={data.linkedin}

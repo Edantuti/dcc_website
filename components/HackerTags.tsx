@@ -30,7 +30,7 @@ const HackerHTag = ({ children, className }:{children:string, className?:string}
       clearInterval(interval);
       setText(children);
     };
-  }, [isInView]);
+  });
 
   return (
     <span className={className} ref={container}>
@@ -38,7 +38,7 @@ const HackerHTag = ({ children, className }:{children:string, className?:string}
     </span>
   );
 };
-
+HackerHTag.displayName = "HackerHTag"
 const HackerTextTag = ({ children, className }:{children:String, className?:string}) => {
     //TODO:Fix for the type
   const intervalRef = useRef<any>(null);
@@ -72,5 +72,5 @@ const HackerTextTag = ({ children, className }:{children:String, className?:stri
     </span>
   );
 };
-
+HackerTextTag.displayName = "HackerTextTag"
 export { HackerHTag, HackerTextTag };

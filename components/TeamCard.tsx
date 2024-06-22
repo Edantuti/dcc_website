@@ -2,8 +2,9 @@
 import { FaLinkedin,FaGithub, FaXTwitter } from 'react-icons/fa6';
 import { HackerTextTag } from '@/components/HackerTags';
 import { IconType } from 'react-icons';
+import Image from "next/image"
 
-export default ({
+const TeamCard = ({
   name,
   designation,
   profile_url,
@@ -14,7 +15,7 @@ export default ({
   return (
     <div className='group w-fit'>
       <div className='relative grid h-64 w-64 grid-cols-2 grid-rows-2 overflow-hidden rounded fill-white'>
-        <img
+        <Image
           src={profile_url}
           alt='profile'
           className='duration-350 object-cover absolute z-10 h-full w-full bg-white transition-all group-hover:-translate-x-16 group-hover:translate-y-16 group-hover:scale-50'
@@ -26,7 +27,7 @@ export default ({
       </div>
       <div className='py-4 transition-all'>
         <h4 className='text-xl font-medium text-white'>
-          <HackerTextTag className="capitalize">{name}</HackerTextTag>
+          <HackerTextTag>{name}</HackerTextTag>
         </h4>
         <span className='text-sm text-white'>
           <HackerTextTag>{designation}</HackerTextTag>
@@ -35,7 +36,8 @@ export default ({
     </div>
   );
 };
-
+TeamCard.displayName = "TeamCard"
+export {TeamCard}
 const SocialIcon = ({ Icon, link }:{Icon:IconType, link?:string}) => {
   return (
     <div className='relative h-32 w-32'>

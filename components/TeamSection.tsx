@@ -1,5 +1,5 @@
-import TeamCard from "@/components/TeamCard";
-export default ({data, team, title}:{data:any, team:string, title:string})=>{
+import {TeamCard} from "@/components/TeamCard";
+const TeamSection =  ({data, team, title}:{data:any, team:string, title:string})=>{
     return (
         <article className={``}>
           <h3 className="text-center text-2xl py-5">{title}</h3>
@@ -17,6 +17,7 @@ export default ({data, team, title}:{data:any, team:string, title:string})=>{
                     tags: string;
                   }) => (
                     <TeamCard
+                      key={data.name}
                       name={data.name}
                       profile_url={data.profile_pic}
                       linkedin={data.linkedin}
@@ -30,4 +31,10 @@ export default ({data, team, title}:{data:any, team:string, title:string})=>{
           </div>
         </article>
     )
+}
+
+TeamSection.displayName = "TeamSection"
+
+export {
+  TeamSection
 }

@@ -64,7 +64,7 @@ export default function RootLayout({
               <Link href="/teams" title="Teams">Teams</Link>
             </div>
           </div>
-          <div className="flex justify-between w-full py-4 items-center mx-10">
+          <div className="flex justify-between w-full py-4 items-center">
             <div className="space-y-8">
               <h4 className="uppercase font-medium text-2xl">
                 Developers & Coders Club NITA
