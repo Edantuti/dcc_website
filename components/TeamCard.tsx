@@ -19,6 +19,8 @@ const TeamCard = ({
           src={profile_url}
           alt='profile'
           className='duration-350 object-cover absolute z-10 h-full w-full bg-white transition-all group-hover:-translate-x-16 group-hover:translate-y-16 group-hover:scale-50'
+          width={800}
+          height={800}
         />
         <SocialIcon Icon={FaXTwitter} link={twitter} />
         <SocialIcon Icon={FaLinkedin} link={linkedin} />

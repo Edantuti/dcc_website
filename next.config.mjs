@@ -12,6 +12,11 @@ const nextConfig = {
                 protocol:'https',
                 hostname:'res.cloudinary.com',
                 port:'',
+            },
+            {
+                protocol:'https',
+                hostname:'i.postimg.cc',
+                port:'',
             }
         ]
     }

@@ -57,13 +57,13 @@ export default function Home() {
               <Image
                 src={Box}
                 alt="filler"
-                className="absolute -bottom-10 w-36 -right-10"
+                className="absolute -bottom-16 w-36 right-24"
               />
               <Image
                 src={
                   "https://firebasestorage.googleapis.com/v0/b/dcc-nita.appspot.com/o/Rectangle1.png?alt=media&token=19986571-aea3-4639-a0f5-466e3593defc"
                 }
-                className="aspect-auto lg:h-[35rem] h-[28rem] z-10"
+                className="aspect-video object-contain z-10"
                 alt={"activites"}
                 width={1920}
                 height={1080}
@@ -76,13 +76,13 @@ export default function Home() {
               <Image
                 src={Dots}
                 alt="filler"
-                className="absolute -bottom-10 w-36 -right-10"
+                className="absolute -bottom-10 w-36 right-8"
               />
               <Image
                 src={
                   "https://firebasestorage.googleapis.com/v0/b/dcc-nita.appspot.com/o/Rectangle2.png?alt=media&token=2aaf9083-5532-42d7-8216-6ba3f6ca5da6"
                 }
-                className="aspect-auto h-[26rem]  z-10"
+                className="aspect-video object-contain z-10"
                 alt={"activites"}
                 width={1920}
                 height={1080}
