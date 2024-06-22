@@ -2,6 +2,12 @@ import {Heading} from "@/components/Heading";
 import {TeamCard} from "@/components/TeamCard";
 import {TeamSection} from "@/components/TeamSection";
 import teamData from "@/public/team-roles.json";
+import { Metadata } from "next";
+
+export const metadata:Metadata = {
+  title:'Teams - Developers & Coders Club'
+}
+
 
 export default function Page() {
   return (
