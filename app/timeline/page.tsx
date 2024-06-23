@@ -6,8 +6,8 @@ export const metadata:Metadata = {
 
 export default async function Page (){
     return (
-        <main className="min-h-screen">
-            
+        <main className="min-h-screen text-white flex items-center justify-center">
+           <p className="text-2xl">Coming Soon</p> 
         </main>
     )
 }

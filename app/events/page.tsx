@@ -20,19 +20,20 @@ export default async function Page () {
           {state.map((data: any) => {
             return (
               <article
-                className=" p-10 rounded w-fit lg:flex lg:space-y-0 space-y-10 gap-10 mx-auto items-center justify-between bg-slate-900"
+                className=" md:p-10 p-5 rounded w-fit lg:flex lg:space-y-0 space-y-10 gap-10 mx-auto items-center justify-between bg-slate-900"
                 key={data._id}
               >
                 <Image
                   src={data.imageURL}
                   alt="Event photo"
-                  className="w-96 aspect-auto mx-auto"
+                  className="md:w-96 w-64 aspect-auto mx-auto"
+
                   width={720}
                   height={1280}
                 />
                 <div className="flex flex-col space-y-5">
-                  <h4 className="text-4xl w-[30rem]">{data.heading}</h4>
-                  <p className="w-[30rem]">{data.description}</p>
+                  <h4 className="md:text-4xl text-2xl md:w-[30rem] w-64">{data.heading}</h4>
+                  <p className="md:text-base text-sm md:w-[30rem] w-64">{data.description}</p>
                   <div className="font-semibold">
                     <time dateTime={data.date}>
                       <p>{new Date(data.date).toDateString()}</p>

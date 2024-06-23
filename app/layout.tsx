@@ -2,18 +2,22 @@ import type { Metadata } from "next";
 import { Montserrat } from "next/font/google";
 import Link from "next/link";
 import Image from "next/image";
+import { FiInstagram, FiLinkedin, FiTwitter, FiYoutube } from "react-icons/fi";
 import {
-  FiInstagram,
-  FiLinkedin,
-  FiTwitter,
-  FiYoutube,
-} from "react-icons/fi";
+  Sheet,
+  SheetContent,
+  SheetDescription,
+  SheetHeader,
+  SheetTitle,
+  SheetTrigger,
+} from "@/components/ui/sheet";
+
 import { AiFillDiscord } from "react-icons/ai";
 import "./globals.css";
-
 import Logo from "@/public/Header/logo-light.png";
 import logo from "@/public/Home/logo.png";
-
+import { FaHamburger } from "react-icons/fa";
+import { GiHamburgerMenu } from "react-icons/gi";
 
 const montserrat = Montserrat({ subsets: ["latin"] });
 
@@ -30,71 +34,115 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`bg-[#0E0F18] ${montserrat.className}`}>
-      <header className="text-white p-3 flex items-center justify-between bg-[#0E0F18] md:mx-10 mx-4">
+        <header className="text-white p-3 flex items-center justify-between bg-[#0E0F18] md:mx-10 mx-2">
           <Link href="/" className="flex items-center gap-4">
-            <Image src={Logo} alt="Logo" className="h-20 w-20" />
-            <h1>Developers & Coders Club</h1>
+            <Image
+              src={Logo}
+              alt="Logo"
+              className="md:h-20 md:w-20 h-10 w-10"
+            />
+            <h1 className="text-sm">Developers & Coders Club</h1>
           </Link>
-          <nav className="md:flex items-center gap-10  hidden">
+          <nav className="md:flex items-center lg:gap-10 gap-4  hidden z-10">
             <Link className="hover:text-gray-200" href="/">
               Home
             </Link>
             <Link href="/events">Events</Link>
-            <Link target="_blank" rel="noopener" href="http://cphub.dccnita.in/">CP Hub</Link>
+            <Link
+              target="_blank"
+              rel="noopener"
+              href="http://cphub.dccnita.in/"
+            >
+              CP Hub
+            </Link>
             <Link href="/timeline">Timeline</Link>
-            <Link href="/teams">Teams</Link> 
-            
+            <Link href="/teams">Teams</Link>
           </nav>
+          <Sheet>
+            <SheetTrigger className="md:hidden block">
+              <GiHamburgerMenu />
+            </SheetTrigger>
+            <SheetContent className="bg-[#0E0F18] ">
+              <SheetHeader>
+                <SheetTitle className="text-white">
+                  Developers and Coders Club
+                </SheetTitle>
+                <SheetDescription className="h-full">
+                  <nav className="flex flex-col items-center justify-center gap-4">
+                    <Link className="hover:text-gray-200" href="/">
+                      Home
+                    </Link>
+                    <Link
+                      target="_blank"
+                      rel="noopener"
+                      href="http://cphub.dccnita.in/"
+                    >
+                      CP Hub
+                    </Link>
+                    <Link href="/events">Events</Link>
+                    <Link href="/timeline">Timeline</Link>
+                    <Link href="/teams">Teams</Link>
+                  </nav>
+                </SheetDescription>
+              </SheetHeader>
+            </SheetContent>
+          </Sheet>
         </header>
         {children}
         <footer
-          className={`px-[10%] bg-footer-image bg-no-repeat bg-cover pt-20 text-white space-y-8`}
+          className={`md:px-[10%] px-2 py-10 bg-slate-800 text-white md:space-y-8 space-y-2`}
         >
-          <div className=" mt-24 flex justify-between">
+          <div className="  flex justify-between">
             <Image
               src={logo}
               alt={"logo"}
-              className="w-32 h-32 aspect-auto"
+              className="md:w-32 md:h-32 w-20 h-20 aspect-auto"
               height={512}
               width={512}
             />
-            <div className="flex flex-col space-y-5">
-              <Link href="/" title="Home">Home</Link>
-              <Link href="/events" title="Events">Events</Link>
-              <Link href="/teams" title="Teams">Teams</Link>
+            <div className="flex flex-col md:space-y-5 space-y-2 md:text-base text-sm">
+              <Link href="/" title="Home">
+                Home
+              </Link>
+              <Link href="/events" title="Events">
+                Events
+              </Link>
+              <Link href="/teams" title="Teams">
+                Teams
+              </Link>
             </div>
           </div>
           <div className="flex justify-between w-full py-4 items-center">
             <div className="space-y-8">
-              <h4 className="uppercase font-medium text-2xl">
+              <h4 className="uppercase font-medium md:text-2xl">
                 Developers & Coders Club NITA
               </h4>
-              <p className="font-normal">
+              <p className="font-normal md:text-base text-xs">
                 National Institute of Technology, Agartala,
                 <br />
                 Jirania, Tripura - 799046
               </p>
             </div>
             <div>
-              <h4 className="text-2xl uppercase font-medium text-right">
+              <h4 className="md:text-2xl text-base uppercase font-medium text-right">
                 Social
               </h4>
               <div className="flex items-center justify-around gap-5 py-2">
-                <Link href="">
-                  <FiTwitter className="aspect-square h-7 w-7" />
+                <Link href="https://twitter.com/dccnita" target="_blank" rel="noopener">
+                  <FiTwitter className="aspect-square md:h-7 md:w-7 h-3 w-3" />
                 </Link>
-                <Link href="">
-                  <FiInstagram className="aspect-square h-7 w-7" />
+                <Link href="https://www.instagram.com/dccnita/" target="_blank" rel="noopener">
+                  <FiInstagram className="aspect-square md:h-7 md:w-7 h-3 w-3" />
                 </Link>
-                <Link href="">
-                  <FiLinkedin className="aspect-square h-7 w-7" />
+                <Link href="https://www.linkedin.com/company/dccnita/" target="_blank" rel="noopener">
+                  <FiLinkedin className="aspect-square md:h-7 md:w-7 h-3 w-3" />
                 </Link>
-                <Link href="">
-                  <AiFillDiscord className="aspect-square h-7 w-7" />
+                <Link href="https://discord.gg/58qJhGtTaa" target="_blank" rel="noopener">
+                  <AiFillDiscord className="aspect-square md:h-7 md:w-7 h-3 w-3" />
                 </Link>
 
-                <Link href="">
-                  <FiYoutube className="aspect-square h-7 w-7" />
+                <Link href="https://www.youtube.com/@DCCNITA" target="_blank" rel="noopener">
+                  <FiYoutube className="aspect-square md:h-7 md:w-7 h-3 w-3" />
                 </Link>
               </div>
             </div>

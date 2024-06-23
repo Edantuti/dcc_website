@@ -2,7 +2,7 @@ import {TeamCard} from "@/components/TeamCard";
 const TeamSection =  ({data, team, title}:{data:any, team:string, title:string})=>{
     return (
         <article className={``}>
-          <h3 className="text-center text-2xl py-5">{title}</h3>
+          <h3 className="text-center md:text-2xl py-5 text-lg">{title}</h3>
           <div className={`flex items-center flex-wrap justify-center xl:gap-20 gap-5`}>
             {Object.keys(data).map((role: string) => {
               if (
