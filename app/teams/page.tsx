@@ -7,6 +7,11 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
 export const metadata: Metadata = {
   title: "Teams - Developers & Coders Club",
+  description: "We raise awareness of the multitude of opportunities available,such as internships with tech giants like Google and Microsoft, national coding competitions and hackathons hosted by tech companies, and opportunities to collaborate on projects to develop skills. By highlighting these opportunities, we strive to empower individuals to take advantage of them and reach their full potential.",
+  keywords:['DCC', 'NIT Agartala', 'CP', 'DCCNITA'],
+  openGraph:{
+    images:'/Home/logo.png'
+  }
 };
 
 export default function Page() {
