@@ -55,7 +55,7 @@ export default function RootLayout({
             >
               CP Hub
             </Link>
-            <Link href="/timeline">Timeline</Link>
+            <Link href="https://blog.dccnita.in">Blog</Link>
             <Link href="/teams">Teams</Link>
           </nav>
           <Sheet>
@@ -80,7 +80,7 @@ export default function RootLayout({
                       CP Hub
                     </Link>
                     <Link href="/events">Events</Link>
-                    <Link href="/timeline">Timeline</Link>
+                    <Link href="https://blog.dccnita.in">Blog</Link>
                     <Link href="/teams">Teams</Link>
                   </nav>
                 </SheetDescription>
@@ -90,17 +90,23 @@ export default function RootLayout({
         </header>
         {children}
         <footer
-          className={`md:px-[10%] px-2 py-10 bg-slate-800 text-white md:space-y-8 space-y-2`}
+          className={`md:px-[10%] px-2 py-5 bg-slate-800 text-white md:space-y-4 space-y-2 mx-10`}
         >
-          <div className="  flex justify-between">
+          <div className="flex justify-between">
+            <div className="md:flex gap-5 items-center">
             <Image
               src={logo}
               alt={"logo"}
-              className="md:w-32 md:h-32 w-20 h-20 aspect-auto"
+              className="md:w-16 md:h-16 w-8 h-8 aspect-auto"
               height={512}
               width={512}
             />
-            <div className="flex flex-col md:space-y-5 space-y-2 md:text-base text-sm">
+
+              <h4 className="uppercase font-medium md:text-2xl text-sm">
+                Developers & Coders Club NITA
+              </h4>
+            </div>
+            <div className="flex items-center md:space-x-5 space-x-2 md:text-base text-sm">
               <Link href="/" title="Home">
                 Home
               </Link>
@@ -114,9 +120,6 @@ export default function RootLayout({
           </div>
           <div className="flex justify-between w-full py-4 items-center">
             <div className="space-y-8">
-              <h4 className="uppercase font-medium md:text-2xl">
-                Developers & Coders Club NITA
-              </h4>
               <p className="font-normal md:text-base text-xs">
                 National Institute of Technology, Agartala,
                 <br />
@@ -128,20 +131,40 @@ export default function RootLayout({
                 Social
               </h4>
               <div className="flex items-center justify-around gap-5 py-2">
-                <Link href="https://twitter.com/dccnita" target="_blank" rel="noopener">
+                <Link
+                  href="https://twitter.com/dccnita"
+                  target="_blank"
+                  rel="noopener"
+                >
                   <FiTwitter className="aspect-square md:h-7 md:w-7 h-3 w-3" />
                 </Link>
-                <Link href="https://www.instagram.com/dccnita/" target="_blank" rel="noopener">
+                <Link
+                  href="https://www.instagram.com/dccnita/"
+                  target="_blank"
+                  rel="noopener"
+                >
                   <FiInstagram className="aspect-square md:h-7 md:w-7 h-3 w-3" />
                 </Link>
-                <Link href="https://www.linkedin.com/company/dccnita/" target="_blank" rel="noopener">
+                <Link
+                  href="https://www.linkedin.com/company/dccnita/"
+                  target="_blank"
+                  rel="noopener"
+                >
                   <FiLinkedin className="aspect-square md:h-7 md:w-7 h-3 w-3" />
                 </Link>
-                <Link href="https://discord.gg/58qJhGtTaa" target="_blank" rel="noopener">
+                <Link
+                  href="https://discord.gg/58qJhGtTaa"
+                  target="_blank"
+                  rel="noopener"
+                >
                   <AiFillDiscord className="aspect-square md:h-7 md:w-7 h-3 w-3" />
                 </Link>
 
-                <Link href="https://www.youtube.com/@DCCNITA" target="_blank" rel="noopener">
+                <Link
+                  href="https://www.youtube.com/@DCCNITA"
+                  target="_blank"
+                  rel="noopener"
+                >
                   <FiYoutube className="aspect-square md:h-7 md:w-7 h-3 w-3" />
                 </Link>
               </div>

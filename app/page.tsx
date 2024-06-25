@@ -10,7 +10,7 @@ import { Heading } from "@/components/Heading";
 export default function Home() {
   return (      
       <main className="bg-[#0E0F18] text-white relative space-y-10">
-        <section className="xl:mx-40 xl:pt-24 lg:mx-28 lg:pt-16 md:mx-24 mx-10 md:pt-12 flex flex-col justify-center xl:h-screen lg:h-[80vh] md:h-[60vh] h-screen">
+        <section className="xl:mx-40 xl:pt-24 lg:mx-28 lg:pt-16 md:mx-24 mx-10 md:pt-12 flex flex-col xl:justify-normal justify-center xl:h-screen lg:h-[80vh] md:h-[60vh] h-screen">
           <h2 className="md:text-5xl text-3xl py-5 font-medium tracking-light">
             Dream <span className="text-[#02A89A]">Code</span> Conquer
           </h2>
