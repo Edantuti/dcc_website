@@ -18,16 +18,18 @@ import Logo from "@/public/Header/logo-light.png";
 import logo from "@/public/Home/logo.png";
 import { FaHamburger } from "react-icons/fa";
 import { GiHamburgerMenu } from "react-icons/gi";
+import { HoverBorderGradient } from "@/components/ui/hover-border-gradient";
 
 const montserrat = Montserrat({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "DCC - Home",
-  description: "We raise awareness of the multitude of opportunities available,such as internships with tech giants like Google and Microsoft, national coding competitions and hackathons hosted by tech companies, and opportunities to collaborate on projects to develop skills. By highlighting these opportunities, we strive to empower individuals to take advantage of them and reach their full potential.",
-  keywords:['DCC', 'NIT Agartala', 'CP', 'DCCNITA'],
-  openGraph:{
-    images:'/Home/logo.png'
-  }
+  description:
+    "We raise awareness of the multitude of opportunities available,such as internships with tech giants like Google and Microsoft, national coding competitions and hackathons hosted by tech companies, and opportunities to collaborate on projects to develop skills. By highlighting these opportunities, we strive to empower individuals to take advantage of them and reach their full potential.",
+  keywords: ["DCC", "NIT Agartala", "CP", "DCCNITA"],
+  openGraph: {
+    images: "/Home/logo.png",
+  },
 };
 
 export default function RootLayout({
@@ -48,6 +50,14 @@ export default function RootLayout({
             <h1 className="text-sm">Developers & Coders Club</h1>
           </Link>
           <nav className="md:flex items-center lg:gap-10 gap-4  hidden z-10">
+            <Link
+              className="hover:text-gray-200"
+              href="https://isro-space-hackathon.vercel.app/"
+            >
+              <HoverBorderGradient containerClassName="rounded-full">
+                <span>ISRO's HACKATHON</span>
+              </HoverBorderGradient>
+            </Link>
             <Link className="hover:text-gray-200" href="/">
               Home
             </Link>
@@ -94,23 +104,23 @@ export default function RootLayout({
         </header>
         {children}
         <footer
-          className={`md:px-[10%] px-2 py-5 bg-slate-800 text-white md:space-y-4 space-y-2 mx-10`}
+          className={`md:px-[10%] px-2 py-5 bg-slate-800 text-white md:space-y-4 space-y-2 md:mx-10 mx-2`}
         >
           <div className="flex justify-between">
             <div className="md:flex gap-5 items-center">
-            <Image
-              src={logo}
-              alt={"logo"}
-              className="md:w-16 md:h-16 w-8 h-8 aspect-auto"
-              height={512}
-              width={512}
-            />
+              <Image
+                src={logo}
+                alt={"logo"}
+                className="md:w-16 md:h-16 w-8 h-8 aspect-auto"
+                height={512}
+                width={512}
+              />
 
               <h4 className="uppercase font-medium md:text-2xl text-sm">
                 Developers & Coders Club NITA
               </h4>
             </div>
-            <div className="flex items-center md:space-x-5 space-x-2 md:text-base text-sm">
+            <nav className="flex items-center md:space-x-5 space-x-2 md:text-base text-sm">
               <Link href="/" title="Home">
                 Home
               </Link>
@@ -120,7 +130,7 @@ export default function RootLayout({
               <Link href="/teams" title="Teams">
                 Teams
               </Link>
-            </div>
+            </nav>
           </div>
           <div className="flex justify-between w-full py-4 items-center">
             <div className="space-y-8">
@@ -134,7 +144,7 @@ export default function RootLayout({
               <h4 className="md:text-2xl text-base uppercase font-medium text-right">
                 Social
               </h4>
-              <div className="flex items-center justify-around gap-5 py-2">
+              <div className="flex items-center justify-around md:gap-5 gap-2 py-2">
                 <Link
                   href="https://twitter.com/dccnita"
                   target="_blank"
