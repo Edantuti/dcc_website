@@ -55,7 +55,7 @@ export default function RootLayout({
               href="https://isro-space-hackathon.vercel.app/"
             >
               <HoverBorderGradient containerClassName="rounded-full">
-                <span>ISRO's HACKATHON</span>
+                <span>ISRO{"'"}s HACKATHON</span>
               </HoverBorderGradient>
             </Link>
             <Link className="hover:text-gray-200" href="/">
