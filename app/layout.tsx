@@ -52,10 +52,10 @@ export default function RootLayout({
           <nav className="md:flex items-center lg:gap-10 gap-4  hidden z-10">
             <Link
               className="hover:text-gray-200"
-              href="https://isro-space-hackathon.vercel.app/"
+              href="https://sih.dccnita.in/"
             >
               <HoverBorderGradient containerClassName="rounded-full">
-                <span>ISRO{"'"}s HACKATHON</span>
+                <span>SIH HACKATHON</span>
               </HoverBorderGradient>
             </Link>
             <Link className="hover:text-gray-200" href="/">
