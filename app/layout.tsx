@@ -19,6 +19,7 @@ import logo from "@/public/Home/logo.png";
 import { FaHamburger } from "react-icons/fa";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { HoverBorderGradient } from "@/components/ui/hover-border-gradient";
+import { ModalSIH } from "@/components/ModalSIH";
 
 const montserrat = Montserrat({ subsets: ["latin"] });
 
@@ -38,8 +39,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={`bg-[#0E0F18] ${montserrat.className}`}>
+    <html lang="en" className="dark">
+      <body className={`bg-[#0E0F18] ${montserrat.className} relative`}>
+        <ModalSIH />
         <header className="text-white p-3 flex items-center justify-between bg-[#0E0F18] md:mx-10 mx-2">
           <Link href="/" className="flex items-center gap-4">
             <Image
@@ -49,28 +51,30 @@ export default function RootLayout({
             />
             <h1 className="text-sm">Developers & Coders Club</h1>
           </Link>
-          <nav className="md:flex items-center lg:gap-10 gap-4  hidden z-10">
-            <Link
-              className="hover:text-gray-200"
-              href="https://sih.dccnita.in/"
-            >
-              <HoverBorderGradient containerClassName="rounded-full">
-                <span>SIH HACKATHON</span>
-              </HoverBorderGradient>
-            </Link>
-            <Link className="hover:text-gray-200" href="/">
+          <nav className="md:flex items-center lg:gap-10 gap-4  z-10">
+            <Link className="hover:text-gray-200 md:flex hidden" href="/">
               Home
             </Link>
-            <Link href="/events">Events</Link>
+            <Link className="hover:text-gray-200 md:flex hidden" href="/events">
+              Events
+            </Link>
             <Link
+              className="hover:text-gray-200 md:flex hidden"
               target="_blank"
               rel="noopener"
               href="http://cphub.dccnita.in/"
             >
               CP Hub
             </Link>
-            <Link href="https://blog.dccnita.in">Blog</Link>
-            <Link href="/teams">Teams</Link>
+            <Link
+              className="hover:text-gray-200 md:flex hidden"
+              href="https://blog.dccnita.in"
+            >
+              Blog
+            </Link>
+            <Link className="hover:text-gray-200 md:flex hidden" href="/teams">
+              Teams
+            </Link>
           </nav>
           <Sheet>
             <SheetTrigger className="md:hidden block">
