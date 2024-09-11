@@ -41,7 +41,6 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark">
       <body className={`bg-[#0E0F18] ${montserrat.className} relative`}>
-        <ModalSIH />
         <header className="text-white p-3 flex items-center justify-between bg-[#0E0F18] md:mx-10 mx-2">
           <Link href="/" className="flex items-center gap-4">
             <Image
